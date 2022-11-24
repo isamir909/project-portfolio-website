@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
@@ -34,7 +33,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={HeroImage}
+            src="https://iili.io/H3ftpku.jpg"
             alt="my profile"
             className="rounded-2xl ms-auto w-2/3 md:w-full"
           ></img>

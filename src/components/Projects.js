@@ -1,61 +1,51 @@
 import React from "react";
-import URLShortener from "../assets/portfolio/url-shortener.jpg";
-
-import BookManagement from "../assets/portfolio/book-management.png";
-
-import ShoppingCart from "../assets/portfolio/Shopping-cart.jpg";
-
-import BloggingSite from "../assets/portfolio/Blogging-site1.jpg";
-import FileSharing from "../assets/portfolio/file-sharing.jpg";
-import OpenToIntern from "../assets/portfolio/opnToIntern.jpg";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: ShoppingCart,
+      src: "https://iili.io/H3q2w8l.jpg",
       demo: false,
-      gitHub:
-        "https://docs.google.com/spreadsheets/d/1MfSS6AIQ7JId334sJ7TFEUSq74R9bBXsMhtvYgmp8yQ/edit?pli=1#gid=0",
+      gitHub: "https://github.com/isamir909/Project-5-Ecommerce-Site",
       title: "Shopping Cart",
       description: "",
     },
     {
       id: 2,
-      src: URLShortener,
+      src: "https://iili.io/H3q2hFf.jpg",
       demo: false,
-      gitHub: "https://github.com/Ajay-Jaiswal?tab=repositories",
+      gitHub: "https://github.com/isamir909/Project-4-Url-Shortner",
       title: "URL shortener",
       description: "",
     },
     {
       id: 3,
-      src: BookManagement,
+      src: "https://iili.io/H3q2W6G.png",
       demo: false,
-      gitHub: "https://github.com/Ajay-Jaiswal?tab=repositories",
+      gitHub: "https://github.com/isamir909/Project-3-BookManagement",
       title: "Book Management",
       description: "",
     },
     {
       id: 4,
-      src: BloggingSite,
+      src: "https://iili.io/H3q20uI.jpg",
       demo: false,
-      gitHub: "www.google.com",
+      gitHub: "https://github.com/isamir909/Project-1-Bloging-Site",
       title: "Blogging Site",
       description: "",
     },
     {
       id: 5,
-      src: OpenToIntern,
+      src: "https://iili.io/H3q2cyN.jpg",
       demo: false,
-      gitHub: "www.google.com",
+      gitHub: "https://github.com/isamir909/Project-2-Open-to-Intern",
       title: "Open To Intern",
       description: "",
     },
     {
       id: 6,
-      src: FileSharing,
-      gitHub: "www.google.com",
+      src: "https://iili.io/H3q2Mnn.jpg",
+      gitHub: "https://github.com/isamir909/Project-2-Open-to-Intern",
       demo: false,
       live: "",
       title: "File Sharing",
@@ -82,6 +72,7 @@ const Projects = () => {
             ({
               id,
               src,
+              imageURL,
               demo,
               gitHub,
               live,
@@ -90,12 +81,11 @@ const Projects = () => {
               comingSoon,
             }) => (
               <div key={id} className=" shadow-md shadow-gray-600 rounded-lg ">
-                
-                  <img
-                    src={src}
-                    alt=""
-                    className="w-65 h-60 rounded-md duration-200 hover:scale-105 border-4 border-white mb-3"
-                  />
+                <img
+                  src={src}
+                  alt=""
+                  className="w-65 h-60 rounded-md duration-200 hover:scale-105 border-4 border-white mb-3"
+                />
                 <a
                   href={gitHub}
                   target="_SEJ"

@@ -14,12 +14,18 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Hi, my name is Samir Lohiya, I'm from Bengaluru-Karnataka. I have completed my bachelor's in Chemical Engineering with 9.23 CGPA from Gujarat Technological University.
+          Hi, my name is Samir Lohiya, I'm from Bengaluru-Karnataka. I have
+          completed my bachelor's in Chemical Engineering with 9.23 CGPA from
+          Gujarat Technological University.
         </p>
 
         <br />
         <p className="text-xl">
-        Currently, I am a Backend Developer trainee at functionUp. During my training, I have completed 5+ projects using Backend technologies. Talking about my Technical skills - I am skilled in JavaScript, NodeJs, Express.js, MongoDB, AWS S3, Redis,GitHub, HTML/CSS, Mysql and some tools - VS Code, Postman.
+          Currently, I am a Backend Developer trainee at functionUp. During my
+          training, I have completed 5+ projects using Backend technologies.
+          Talking about my Technical skills - I am skilled in JavaScript,
+          NodeJs, Express.js, MongoDB, AWS S3, Redis,GitHub, HTML/CSS, Mysql and
+          some tools - VS Code, Postman.
         </p>
       </div>
     </div>
