@@ -12,7 +12,7 @@ const SocialLinks = () => {
       href: "https://www.linkedin.com/in/isamirlohiya/",
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+       <FaLinkedin size={30} />LinkedIn 
         </>
       ),
       style: "rounded-tr-md",
@@ -22,7 +22,7 @@ const SocialLinks = () => {
       href: "https://github.com/isamir909",
       child: (
         <>
-          GitHub <FaGithub size={30} />
+        <FaGithub size={30} />GitHub 
         </>
       ),
     },
@@ -31,7 +31,7 @@ const SocialLinks = () => {
       href: "mailto:samirlohiya909@gmail.com",
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+        <HiOutlineMail size={30} />Mail 
         </>
       ),
     },
@@ -40,7 +40,7 @@ const SocialLinks = () => {
       href: "Resume_Samir_Lohiya.pdf",
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+        <BsFillPersonLinesFill size={30} />  Resume 
         </>
       ),
       style: "rounded-br-md",
@@ -49,12 +49,12 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="flex flex-col top-[35%] right-0 fixed">
       <ul>
         {links.map(({ id, href, child, style, download }) => (
           <li
             key={id}
-            className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-green-700 ${style}`}
+            className={`flex justify-between items-center w-40 h-14 px-4 mr-[-100px] hover:mr-10px hover:rounded-md duration-300 bg-green-700 ${style}`}
           >
             <a
               href={href}
