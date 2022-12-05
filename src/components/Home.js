@@ -13,7 +13,7 @@ const Home = () => {
             Hello, I'm Samir Lohiya
           </h2>
           <p className="text-gray-500 py-4 max-w-md">Backend Developer</p>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md text-justify">
             I am a NodeJs backend Developer with Experience in various
             technologies (NodeJs,MongoDB,JavaScript,etc) and Best coding
             practices to write well-maintained industry-standard Code.
