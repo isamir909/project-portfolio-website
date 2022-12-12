@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin,FaWhatsapp  } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -45,6 +45,15 @@ const SocialLinks = () => {
       ),
       style: "rounded-br-md",
       download: true,
+    },
+    {
+      id: 5,
+      href: "https://api.whatsapp.com/send?phone=919909779216&text=Hello%F0%9F%98%80",
+      child: (
+        <>
+        <FaWhatsapp size={30} />Whatsapp 
+        </>
+      ),
     },
   ];
 

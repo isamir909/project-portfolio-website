@@ -42,16 +42,16 @@ const Projects = () => {
       title: "Open To Intern",
       description: "",
     },
-    {
-      id: 6,
-      src: "https://iili.io/H3q2Mnn.jpg",
-      gitHub: "https://github.com/isamir909/Project-2-Open-to-Intern",
-      demo: false,
-      live: "",
-      title: "File Sharing",
-      description: "",
-      comingSoon: true,
-    },
+    // {
+    //   id: 6,
+    //   src: "https://iili.io/H3q2Mnn.jpg",
+    //   gitHub: "https://github.com/isamir909/Project-2-Open-to-Intern",
+    //   demo: false,
+    //   live: "",
+    //   title: "File Sharing",
+    //   description: "",
+    //   comingSoon: true,
+    // },
   ];
 
   return (
