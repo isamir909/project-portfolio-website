@@ -52,12 +52,22 @@ const Projects = () => {
     //   description: "",
     //   comingSoon: true,
     // },
+    // {
+    //   id: 7,
+    //   src: "https://iili.io/H3q2Mnn.jpg",
+    //   gitHub: "https://github.com/isamir909/Project-2-Open-to-Intern",
+    //   demo: false,
+    //   live: "",
+    //   title: "File Sharing",
+    //   description: "",
+    //   comingSoon: false,
+    // }
   ];
 
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-11"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white  "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -67,7 +77,7 @@ const Projects = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-10 sm:px-0 pb-48">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-10 sm:px-0 pb-28">
           {projects.map(
             ({
               id,

@@ -9,22 +9,41 @@ const Skills = () => {
       style: "shadow-green-500",
     },
     {
-      id: 2,
-      src: "https://iili.io/H3qf9cb.png",
-      title: "Express.Js",
-      style: "shadow-blue-500",
-    },
-    {
       id: 3,
       src: "https://iili.io/H3qfqV1.png",
       title: "javascript",
       style: "shadow-yellow-500",
     },
     {
+      id: 7,
+      src: "https://iili.io/JLIdwJa.png",
+      title: "TypeScript",
+      style: "shadow-blue-500",
+    },
+  
+    // {
+    //   id: 8,
+    //   src: "https://iili.io/JLIIFIt.png",
+    //   title: "Next.js",
+    //   style: "shadow-gray-500",
+    // },
+    {
+      id: 10,
+      src: "https://iili.io/JL75kEQ.png",
+      title: "SQL",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 2,
+      src: "https://iili.io/H3qf9cb.png",
+      title: "Express.Js",
+      style: "shadow-blue-500",
+    },
+    {
       id: 4,
       src: "https://iili.io/H3qf3NV.png",
       title: "MongoDB",
-      style: "shadow-blue-500",
+      style: "shadow-green-500",
     },
     {
       id: 5,
@@ -32,18 +51,33 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    // {
+    //   id: 6,
+    //   src: "https://iili.io/H3qfHSj.png",
+    //   title: "HTML",
+    //   style: "shadow-orange-500",
+    // },
+   
+    
     {
-      id: 6,
-      src: "https://iili.io/H3qfHSj.png",
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 8,
+      src: "https://iili.io/JLIIFIt.png",
+      title: "Next.js",
+      style: "shadow-gray-500",
+    },
+    
+    {
+      id: 9,
+      src: "https://iili.io/JLIT4RV.png",
+      title: "Docker",
+      style: "shadow-blue-500",
     },
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full pb-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -28,10 +27,12 @@ function NavBar() {
     },
   ];
 
+  const offsetValue = -window.innerHeight / 2 + 240; // Adjust the offset value to center the section
+
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed ">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div>
-        <h1 className="text-5xl font-signature ml-2 ">Samir Lohiya</h1>
+        <h1 className="text-5xl font-signature ml-2">Samir Lohiya</h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -40,8 +41,8 @@ function NavBar() {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={550}>
-              {link}{" "}
+            <Link to={link} smooth duration={550} offset={offsetValue}>
+              {link}
             </Link>
           </li>
         ))}
@@ -65,9 +66,9 @@ function NavBar() {
                 to={link}
                 smooth
                 duration={550}
+                offset={offsetValue}
               >
-                {" "}
-                {link}{" "}
+                {link}
               </Link>
             </li>
           ))}
