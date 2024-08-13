@@ -14,13 +14,11 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">Backend Developer</p>
           <p className="text-gray-500 py-4 max-w-md text-justify">
-            I am a NodeJs backend Developer with Experience in various
-            technologies (NodeJs,MongoDB,JavaScript,etc) and Best coding
-            practices to write well-maintained industry-standard Code.
+          I am a experienced backend developer with expertise in Node.js, AWS, and both SQL and NoSQL databases. I have experience in taking projects from the design phase through to delivery in a fast-paced and evolving environment.
           </p>
           <div>
             <a
-              href="Resume_Samir_Lohiya.pdf"
+              href="Resume_Samir_Lohiy_Backend_Developer.pdf"
               download={true}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-blue-500 cursor-pointer"
             >

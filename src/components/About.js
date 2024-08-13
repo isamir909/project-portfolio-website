@@ -14,12 +14,15 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20 text-justify">
-          Hi, my name is Samir Lohiya, I'm from Bengaluru-Karnataka. I have completed my bachelor's in Chemical Engineering with 9.23 CGPA from Gujarat Technological University.
+        Hi, I’m Samir Lohiya, an experienced backend developer with expertise in Node.js, AWS, and both SQL and NoSQL databases. As one of the initial developers at my startup, I’ve gained comprehensive experience in taking projects from the design phase through to delivery in a fast-paced and evolving environment.
+        </p>
+        <p className="text-xl mt-20 text-justify">
+        In this dynamic setting, I’ve delivered key features both independently and as part of a collaborative team. My work includes creating scalable features that have the potential to evolve into SaaS solutions, managing DevOps tasks with tools like GitHub Actions and Nginx, and ensuring smooth deployments with a focus on data integrity and scalability.
         </p>
 
         <br />
         <p className="text-xl text-justify ">
-          Currently, I am a Backend Developer trainee at functionUp. During my training, I have completed 5+ projects using Backend technologies. Talking about my Technical skills - I am skilled in JavaScript, NodeJs, Express.js, MongoDB, AWS S3, Redis,GitHub, HTML, CSS, Mysql and some tools - VS Code, Postman.
+        What sets me apart is my hands-on experience in a startup environment where rapid development and frequently changing requirements are the norm. My background in comprehensive product development and my technical skills will enable me to contribute effectively to your team’s success.
         </p>
       </div>
     </div>

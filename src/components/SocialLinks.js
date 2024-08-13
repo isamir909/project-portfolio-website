@@ -37,7 +37,7 @@ const SocialLinks = () => {
     },
     {
       id: 4,
-      href: "Resume_Samir_Lohiya.pdf",
+      href: "Resume_Samir_Lohiy_Backend_Developer.pdf",
       child: (
         <>
           <BsFillPersonLinesFill size={30} /> Resume
